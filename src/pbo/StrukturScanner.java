@@ -10,8 +10,8 @@ package pbo;
  */
 import java.util.Scanner;
 public class StrukturScanner {
-      public static void main(String[]args){
-    int nohari;
+    public static void main(String[]args){
+        int nohari;
     Scanner scan = new Scanner(System.in).useDelimiter("\n");
     System.out.print("masukkan nomor hari : ");
     nohari= scan.nextInt();
